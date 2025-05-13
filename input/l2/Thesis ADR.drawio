@@ -529,8 +529,8 @@
             <mxPoint x="1527" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8IR9IB2kAjyOWW3M31Co-454" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="350" width="1438" height="630" as="geometry" />
+        <mxCell id="8IR9IB2kAjyOWW3M31Co-454" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="350" width="1420" height="630" as="geometry" />
         </mxCell>
         <mxCell id="8IR9IB2kAjyOWW3M31Co-455" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=collab;archiType=square;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="2140" y="547.5" width="740" height="322.5" as="geometry" />
