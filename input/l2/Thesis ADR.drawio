@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="rG1aWR5nTBu968VJAlu0">
-    <mxGraphModel dx="2977" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3473" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qfAyH82oZV21_bXYcfx5-162" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="qfAyH82oZV21_bXYcfx5-162" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="3710" width="1360" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="qfAyH82oZV21_bXYcfx5-342" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#f9f7ed;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
@@ -13,7 +13,7 @@
         <mxCell id="qfAyH82oZV21_bXYcfx5-272" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="3770" width="940" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="qfAyH82oZV21_bXYcfx5-3" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="qfAyH82oZV21_bXYcfx5-3" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="3960" y="3320" width="1610" height="1300" as="geometry" />
         </mxCell>
         <mxCell id="qfAyH82oZV21_bXYcfx5-142" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;dashed=1;dashPattern=8 8;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
@@ -25,7 +25,7 @@
         <mxCell id="qfAyH82oZV21_bXYcfx5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;dashed=1;dashPattern=8 8;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3990" y="3370" width="1380" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="8IR9IB2kAjyOWW3M31Co-822" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+        <mxCell id="8IR9IB2kAjyOWW3M31Co-822" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="2578" width="900" height="862" as="geometry" />
         </mxCell>
         <mxCell id="8IR9IB2kAjyOWW3M31Co-812" value="FHIR REST API&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=interface;archiType=square;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
