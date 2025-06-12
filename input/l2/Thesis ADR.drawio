@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="rG1aWR5nTBu968VJAlu0">
-    <mxGraphModel dx="1501" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3490" y="5450" width="3260" height="720" as="geometry" />
-        </mxCell>
         <mxCell id="qfAyH82oZV21_bXYcfx5-162" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="3710" width="1360" height="1110" as="geometry" />
         </mxCell>
@@ -3003,334 +3000,289 @@
             <mxGeometry x="970" y="5190" width="705" height="332" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-80" value="Browser: HTTP/HTTPS" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3747" y="5570" width="220" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-159" value="Redis" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1762.5" y="5830" width="310" height="748" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-81" value="Load Balancer: Forwarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3731" y="5674" width="252" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-160" value="Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1762.5" y="6598" width="310" height="772" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-82" value="Ingress: Routing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3770" y="5778" width="174" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-161" value="AppContainer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1402.5" y="6141" width="310" height="829" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-83" value="App: Handle Request" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3752" y="5882" width="209" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-162" value="Ingress" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1047.5" y="6226" width="305" height="748" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-84" value="DB: SQL Queries" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3650" y="5986" width="175" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-163" value="LoadBalancer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="6178" width="310" height="796" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-85" value="Redis: Cache Access" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3875" y="5986" width="202" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-164" value="Browser" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="6850" width="310" height="796" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-86" value="Browser: TLS Encrypt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4239" y="5570" width="212" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-165" value="App - HTTP or HTTPS" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="6885" width="211" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-87" value="LB: TLS Terminate" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4250" y="5674" width="189" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-166" value="Presentation - TLS and Compression" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="6989" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-88" value="Ingress: JSON Format" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4239" y="5778" width="212" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-167" value="Session - HTTPS Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="7117" width="229" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-89" value="App: Format Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4251" y="5882" width="187" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-168" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="7221" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-90" value="DB: Data Encoding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4127" y="5986" width="191" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-169" value="Network - IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="408.5" y="7325" width="149" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-91" value="Redis: Serialization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4368" y="5986" width="197" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-170" value="Data Link - Ethernet or Wi-Fi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="7429" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-92" value="Browser: HTTPS Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4700" y="5570" width="230" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-171" value="Physical - Fiber or Wi-Fi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="7557" width="230" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-93" value="LB: Session Persistence" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4702" y="5674" width="225" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-172" value="Physical - NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="764.5" y="6213" width="157" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-94" value="Ingress: Forward Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4697" y="5778" width="235" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-173" value="Data Link - Ethernet" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="6317" width="205" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-95" value="App: Login Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4718" y="5882" width="192" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-174" value="Network - IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="768.5" y="6421" width="149" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-96" value="DB: DB Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4616" y="5986" width="165" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-175" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="6525" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-97" value="Redis: Redis Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4830" y="5986" width="201" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-176" value="Session - Session Persistence" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="6629" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-98" value="Browser: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5151" y="5570" width="155" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-177" value="Presentation - TLS Termination" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="6757" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-99" value="LB: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5171" y="5674" width="115" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-178" value="App - HTTP Forwarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="729.5" y="6885" width="225" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-100" value="Ingress: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5155" y="5778" width="147" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-179" value="Physical - Virtual NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1095.5" y="6261" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-101" value="App: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5166" y="5882" width="125" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-180" value="Data Link - Bridge" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1105.5" y="6365" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-102" value="DB: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5082" y="5986" width="117" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-181" value="Network - Internal IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1094.5" y="6469" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-103" value="Redis: TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5249" y="5986" width="136" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-182" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1114.5" y="6573" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-104" value="Browser: IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5538" y="5570" width="141" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-183" value="Session - Forward Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1079.5" y="6677" width="242" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-105" value="LB: Internal IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5527" y="5674" width="162" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-184" value="Presentation - Data Format" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="6781" width="255" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-106" value="Ingress: IP Routing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5513" y="5778" width="191" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-185" value="App - Routing Rules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1100.5" y="6885" width="199" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-107" value="App: IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5532" y="5882" width="153" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-186" value="Physical - Virtual NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1452.5" y="6176" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-108" value="DB: IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5434" y="5986" width="145" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-187" value="Data Link - Bridge" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1462.5" y="6280" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-109" value="Redis: IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5629" y="5986" width="163" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-188" value="Network - IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1461.5" y="6384" width="191" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-110" value="Browser: Ethernet/Wi-Fi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5916" y="5570" width="236" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-189" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1471.5" y="6488" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-111" value="LB: Ethernet" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5958" y="5674" width="150" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-190" value="Session - Login Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1446.5" y="6592" width="221" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-112" value="Ingress: Bridge" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5951" y="5778" width="165" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-191" value="Presentation - HTML or JSON Encoding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1427.5" y="6696" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-113" value="App: MAC VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5948" y="5882" width="170" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-192" value="App - Web App Logic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1453.5" y="6885" width="207" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-114" value="DB: MAC VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5842" y="5986" width="162" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-193" value="Physical - Cable" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1830.5" y="6633" width="173" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-115" value="Redis: MAC VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6054" y="5986" width="180" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-194" value="Data Link - MAC VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1809.5" y="6737" width="215" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-116" value="Browser: Fiber/Wi-Fi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6339" y="5570" width="210" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-195" value="Network - IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1821.5" y="6841" width="191" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-117" value="LB: NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6388" y="5674" width="112" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-196" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1831.5" y="6945" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-118" value="Ingress: vNIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6368" y="5778" width="152" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-197" value="Session - DB Connection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1801.5" y="7049" width="231" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-119" value="App: vNIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6379" y="5882" width="130" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-198" value="Presentation - Data Encoding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="7153" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-120" value="DB: Cable" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6284" y="5986" width="130" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-199" value="App - SQL Query" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1829.5" y="7281" width="176" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-121" value="Redis: Cable" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6464" y="5986" width="148" height="54" as="geometry" />
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-200" value="Physical - Cable" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1830.5" y="5865" width="173" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-80" target="0kciZhLLKw6E0cv1uY3S-81">
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-201" value="Data Link - MAC VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1809.5" y="5969" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-202" value="Network - IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1821.5" y="6073" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-203" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1831.5" y="6177" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-204" value="Session - Redis Connection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1792.5" y="6281" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-205" value="Presentation - Serialization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1789.5" y="6385" width="255" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-206" value="App - Redis Commands" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1805.5" y="6489" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-207" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-165" target="0kciZhLLKw6E0cv1uY3S-178">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-81" target="0kciZhLLKw6E0cv1uY3S-82">
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-208" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-178" target="0kciZhLLKw6E0cv1uY3S-185">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-82" target="0kciZhLLKw6E0cv1uY3S-83">
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-209" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-185" target="0kciZhLLKw6E0cv1uY3S-192">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-83" target="0kciZhLLKw6E0cv1uY3S-84">
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-210" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.628;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-192" target="0kciZhLLKw6E0cv1uY3S-199">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3737" y="5961" />
+              <mxPoint x="1730" y="6919" />
+              <mxPoint x="1730" y="7308" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-83" target="0kciZhLLKw6E0cv1uY3S-85">
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-211" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-192" target="0kciZhLLKw6E0cv1uY3S-206">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3976" y="5961" />
+              <mxPoint x="1660" y="6900" />
+              <mxPoint x="1730" y="6900" />
+              <mxPoint x="1730" y="6516" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-86" target="0kciZhLLKw6E0cv1uY3S-87">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-212" value="Application Container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="8210" width="2024" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-87" target="0kciZhLLKw6E0cv1uY3S-88">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-213" value="Kubernetes Service + Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="8030" width="2014" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-129" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-88" target="0kciZhLLKw6E0cv1uY3S-89">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-214" value="Kubernetes Ingress" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="7840" width="1905" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-89" target="0kciZhLLKw6E0cv1uY3S-90">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4223" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-215" value="Load Balancer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="7670" width="1797" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-89" target="0kciZhLLKw6E0cv1uY3S-91">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4467" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-216" value="Physical - NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="7707" width="157" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-132" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-92" target="0kciZhLLKw6E0cv1uY3S-93">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-217" value="Data Link - Ethernet" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3302" y="7707" width="205" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-133" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-93" target="0kciZhLLKw6E0cv1uY3S-94">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-218" value="Network - IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3557" y="7707" width="149" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-134" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-94" target="0kciZhLLKw6E0cv1uY3S-95">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-219" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3756" y="7707" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-95" target="0kciZhLLKw6E0cv1uY3S-96">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4698" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-220" value="Session - Session Persistence" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3976" y="7695" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-136" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-95" target="0kciZhLLKw6E0cv1uY3S-97">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4931" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-221" value="Presentation - TLS Termination" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4286" y="7695" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-137" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-98" target="0kciZhLLKw6E0cv1uY3S-99">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-222" value="App - HTTP Forwarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4596" y="7707" width="225" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-138" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-99" target="0kciZhLLKw6E0cv1uY3S-100">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-223" value="Physical - Virtual NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="7877" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-139" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-100" target="0kciZhLLKw6E0cv1uY3S-101">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-224" value="Data Link - Bridge" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3355" y="7877" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-140" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-101" target="0kciZhLLKw6E0cv1uY3S-102">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5140" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-225" value="Network - Internal IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3593" y="7877" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-141" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-101" target="0kciZhLLKw6E0cv1uY3S-103">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5316" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-226" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3853" y="7877" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-104" target="0kciZhLLKw6E0cv1uY3S-105">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-227" value="Session - Forward Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4074" y="7877" width="242" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-143" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-105" target="0kciZhLLKw6E0cv1uY3S-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-228" value="Presentation - Data Format" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4365" y="7877" width="255" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-106" target="0kciZhLLKw6E0cv1uY3S-107">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-229" value="App - Routing Rules (Ingress Controller)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4670" y="7865" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-107" target="0kciZhLLKw6E0cv1uY3S-108">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5506" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-230" value="Physical - vNIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="8067" width="164" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-146" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-107" target="0kciZhLLKw6E0cv1uY3S-109">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5710" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-231" value="Data Link - veth Pair" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3310" y="8067" width="207" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-147" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-110" target="0kciZhLLKw6E0cv1uY3S-111">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-232" value="Network - ClusterIP Routing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3567" y="8067" width="258" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-148" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-111" target="0kciZhLLKw6E0cv1uY3S-112">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-233" value="Transport - kube-proxy / CNI (e.g., Calico)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3874" y="8055" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-149" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-112" target="0kciZhLLKw6E0cv1uY3S-113">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-234" value="Session - Service Load Balancing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4184" y="8055" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-150" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-113" target="0kciZhLLKw6E0cv1uY3S-114">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5923" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-235" value="Presentation - Pod IP Mapping" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4494" y="8055" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-151" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-113" target="0kciZhLLKw6E0cv1uY3S-115">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="6144" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-236" value="App - Service (ClusterIP)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4804" y="8067" width="235" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-152" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-116" target="0kciZhLLKw6E0cv1uY3S-117">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-237" value="Physical - Virtual NIC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="8247" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-153" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-117" target="0kciZhLLKw6E0cv1uY3S-118">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-238" value="Data Link - Bridge" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3355" y="8247" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-154" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-118" target="0kciZhLLKw6E0cv1uY3S-119">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-239" value="Network - IP VLAN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3593" y="8247" width="191" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-155" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-119" target="0kciZhLLKw6E0cv1uY3S-120">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="6349" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-240" value="Transport - TCP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3834" y="8247" width="170" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="0kciZhLLKw6E0cv1uY3S-156" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-119" target="0kciZhLLKw6E0cv1uY3S-121">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="6538" y="5961" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-241" value="AppContainer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4054" y="8247" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-242" value="Session - Login Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4261" y="8247" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-243" value="Presentation - HTML or JSON Encoding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4532" y="8235" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-244" value="App - Web App Logic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4842" y="8247" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-245" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-222" target="0kciZhLLKw6E0cv1uY3S-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-246" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-229" target="0kciZhLLKw6E0cv1uY3S-230">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kciZhLLKw6E0cv1uY3S-247" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0kciZhLLKw6E0cv1uY3S-236" target="0kciZhLLKw6E0cv1uY3S-237">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
