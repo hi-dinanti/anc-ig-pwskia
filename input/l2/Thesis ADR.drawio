@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="Page-1" id="rG1aWR5nTBu968VJAlu0">
-    <mxGraphModel dx="3827" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2587" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3304,6 +3304,216 @@
             <mxGeometry x="4603" y="8810" width="922" height="871" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-4" value="FHIR Server Environment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3859" y="11075" width="343" height="1031" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-5" value="EMR System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4222" y="11981" width="338" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-6" value="FHIR Transmission Stack" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3894" y="9681" width="687" height="1208" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-7" value="&lt;b&gt;Layer 7: Application&lt;/b&gt;&#xa;• FHIR Resources (Patient/Observation)&#xa;• HTTP REST API&#xa;• JSON/XML Encoding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4141" y="9706" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-8" value="&lt;b&gt;Layer 6: Presentation&lt;/b&gt;&#xa;• TLS 1.3 Encryption&#xa;• JSON Serialization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3946" y="9906" width="222" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-9" value="&lt;b&gt;Layer 5: Session&lt;/b&gt;&#xa;• OAuth 2.0 Authentication&#xa;• JWT Token Management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="10058" width="255" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-10" value="&lt;b&gt;Layer 4: Transport&lt;/b&gt;&#xa;• TCP Port 443 (HTTPS)&#xa;• Flow Control&#xa;• Error Recovery" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3944" y="10210" width="227" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-11" value="&lt;b&gt;Layer 3: Network&lt;/b&gt;&#xa;• IP Routing&#xa;• Load Balancer VIP&#xa;• Kubernetes CNI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3957" y="10386" width="202" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-12" value="&lt;b&gt;Layer 2: Data Link&lt;/b&gt;&#xa;• Ethernet Frames&#xa;• VLAN Tagging&#xa;• MAC Addressing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3959" y="10562" width="197" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-13" value="&lt;b&gt;Layer 1: Physical&lt;/b&gt;&#xa;• Network Cabling&#xa;• Switch Ports&#xa;• NIC Interfaces" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3962" y="10738" width="191" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-14" value="EMR User Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4257" y="12017" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-15" value="FHIR API Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4333" y="12179" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-16" value="FHIR Repository" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4335" y="12305" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-17" value="Physical Network Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3928" y="10943" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-18" value="Layer 1: Physical" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3967" y="11100" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-19" value="Layer 2: Data Link" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3962" y="11208" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-20" value="Layer 3: Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3966" y="11312" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-21" value="Layer 4: Transport" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3962" y="11416" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-22" value="Layer 5: Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3970" y="11520" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-23" value="Layer 6: Presentation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3951" y="11624" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-24" value="Layer 7: Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3956" y="11728" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-25" value="FHIR Processing Engine" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3894" y="11854" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-26" value="FHIR Database" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3947" y="12006" width="118" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-27" value="HTTP Response" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4271" y="11854" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-7" target="Y0gpE1kc9U0N2tR1rbZs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4058" y="9881" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-8" target="Y0gpE1kc9U0N2tR1rbZs-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-9" target="Y0gpE1kc9U0N2tR1rbZs-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-10" target="Y0gpE1kc9U0N2tR1rbZs-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-11" target="Y0gpE1kc9U0N2tR1rbZs-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-12" target="Y0gpE1kc9U0N2tR1rbZs-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-34" value="User Action" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.34;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-14" target="Y0gpE1kc9U0N2tR1rbZs-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4355" y="12142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-35" value="Create FHIR Resource" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-15" target="Y0gpE1kc9U0N2tR1rbZs-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-36" value="1. Initiate FHIR POST Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=-0.01;entryX=1;entryY=0.9;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-15" target="Y0gpE1kc9U0N2tR1rbZs-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4488" y="12142" />
+              <mxPoint x="4488" y="9881" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-37" value="2. Physical Transmission" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-13" target="Y0gpE1kc9U0N2tR1rbZs-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3996" y="10889" />
+              <mxPoint x="3996" y="10916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-38" value="3. Receive Bits" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.2;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-17" target="Y0gpE1kc9U0N2tR1rbZs-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3952" y="11048" />
+              <mxPoint x="3952" y="11075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-18" target="Y0gpE1kc9U0N2tR1rbZs-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-19" target="Y0gpE1kc9U0N2tR1rbZs-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-20" target="Y0gpE1kc9U0N2tR1rbZs-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-21" target="Y0gpE1kc9U0N2tR1rbZs-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-22" target="Y0gpE1kc9U0N2tR1rbZs-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-23" target="Y0gpE1kc9U0N2tR1rbZs-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-45" value="Process FHIR Resource" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-24" target="Y0gpE1kc9U0N2tR1rbZs-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4006" y="11818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-46" value="Store Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-25" target="Y0gpE1kc9U0N2tR1rbZs-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.82;entryX=0.97;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-13" target="Y0gpE1kc9U0N2tR1rbZs-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4264" y="10889" />
+              <mxPoint x="4264" y="10916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.69;entryY=0;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-17" target="Y0gpE1kc9U0N2tR1rbZs-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4121" y="11048" />
+              <mxPoint x="4121" y="11075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-49" value="4. Return HTTP 201 Created" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=1;entryX=0;entryY=0.09;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-24" target="Y0gpE1kc9U0N2tR1rbZs-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4120" y="11818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0gpE1kc9U0N2tR1rbZs-50" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Y0gpE1kc9U0N2tR1rbZs-27" target="Y0gpE1kc9U0N2tR1rbZs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
