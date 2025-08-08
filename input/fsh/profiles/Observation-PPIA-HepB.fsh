@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: PPIAHepB
 Title: "Prenatal Screening - Hepatitis B"
 Description: "Observation capturing prenatal Hepatitis B test results in accordance to Ministry of Health regulation."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/PPIAHepB"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-PPIAHepB"
 * ^status = #active
 
 * category 1..1

@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCRhesus
 Title: "Rhesus (Observation)" 
 Description: "Observation representing rhesus type (Rh factor) recorded during an antenatal care visit. This data supports maternal health assessment as part of the Indonesian minimum 10T exam"
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCRhesus"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCRhesus"
 * ^status = #active
 * category.coding 1..1
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"

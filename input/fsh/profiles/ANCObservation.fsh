@@ -3,7 +3,7 @@ Parent: SatuSehatObservation
 Id: ANCObservation
 Title: "Antenatal Care Observation"
 Description: "Antenatal Care Observation"
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/Observation"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-Observation"
 * ^status = #active
 * ^type = "Observation"
 // * ^experimental = true

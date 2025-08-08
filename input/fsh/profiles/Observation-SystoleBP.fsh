@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCSystoleBP
 Title: "Systolic Blood Pressure (Observation)" 
 Description: "Observation representing the systolic blood pressure measurement. This data supports antenatal care assessments for hypertension screening and other prenatal complications as part of the 10T minimum service exam."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCSystoleBP"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCSystoleBP"
 * ^status = #active
 
 * category 1..1

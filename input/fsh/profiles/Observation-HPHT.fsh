@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCLMP
 Title: "Last menstrual period (Observation)"
 Description: "Observation representing the start date of the last menstrual period (LMP) as reported in a survey. This data supports gestational age estimation and antenatal care assessments."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCLMP"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCLMP"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

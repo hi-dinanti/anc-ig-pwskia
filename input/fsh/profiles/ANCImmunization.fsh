@@ -3,7 +3,7 @@ Parent: SatuSehatImmunization
 Id: ANCImmunization
 Title: "Antenatal Care Immunization"
 Description: "Antenatal Care Immunization"
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/Immunization"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-Immunization"
 * ^status = #active
 * ^type = "Immunization"
 * ^meta.lastUpdated = "2025-02-11T06:32:01.879599+00:00"

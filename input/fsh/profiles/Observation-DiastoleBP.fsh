@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCDiastoleBP
 Title: "Diastolic Blood Pressure (Observation)" 
 Description: "Observation representing the diastolic blood pressure measurement. This data supports antenatal care assessments for hypertension screening and other prenatal complications as part of the 10T minimum service exam."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCDiastoleBP"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCDiastoleBP"
 * ^status = #active
 
 * category 1..1

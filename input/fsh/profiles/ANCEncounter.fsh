@@ -3,7 +3,7 @@ Parent: SatuSehatEncounter
 Id: ANCEncounter
 Title: "Antenatal Care Encounter"
 Description: "An interaction between a pregnant individual and a healthcare provider for the purpose of conducting antenatal assessments, providing maternal and fetal health services, and ensuring continuity of care throughout pregnancy. This includes routine check-ups, screenings, interventions, and counseling as part of comprehensive antenatal care."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/Encounter"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-Encounter.html"
 * ^status = #active
 * ^type = "Encounter"
 * ^meta.lastUpdated = "2025-02-11T06:32:01.879599+00:00"

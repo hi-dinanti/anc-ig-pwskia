@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCProteinUrine
 Title: "Protein Urine (Observation)" 
 Description: "Observation representing the protein concentration in urine, measured by test strip. This data supports antenatal care assessments for preeclampsia screening and other prenatal complications as part of 10T minimum service exam."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCProteinUrine"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCProteinUrine"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

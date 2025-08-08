@@ -2,7 +2,7 @@ ValueSet: ANCGlucoseLabVS
 Id: ANCGlucoseLabVS
 Title: "Random Lab Sugar Laboratory ValueSet"
 Description: "Codes for glucose laboratory (random blood sugar) parameters in ANC."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/ANCGlucoseLabVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-ANCGlucoseLabVS"
 * include codes from system http://loinc.org where code = #74774-1 "Glucose [Mass/volume] in Serum, Plasma or Blood"
 * include codes from system http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes where code = #ANC.B9.DE159 "Glucose test conducted"
 
@@ -10,7 +10,7 @@ ValueSet: ANCHemoglobinVS
 Id: ANCHemoglobinVS
 Title: "Hemoglobin ValueSet"
 Description: "Codes for hemoglobin in ANC."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/ANCHemoglobinVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-ANCHemoglobinVS"
 * include codes from system http://loinc.org where code = #718-7 "Hemoglobin [Mass/volume] in Blood"
 * include codes from system http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes where code = #ANC.B9.DE175 "Blood hemoglobin test conducted"
 
@@ -18,7 +18,7 @@ ValueSet: ANCProteinUrineVS
 Id: ANCProteinUrineVS
 Title: "Protein Urine ValueSet"
 Description: "Codes for protein urine laboratory parameter in ANC."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/ANCProteinUrineVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-ANCProteinUrineVS"
 * include codes from system http://loinc.org where code = #5804-0 "Protein [mass/volume] in urine by test strip"
 * include codes from system http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes where code = #ANC.B9.DE114 "Urine test conducted"
 
@@ -26,7 +26,7 @@ ValueSet: UrineLabResultVS
 Id: UrineLabResultVS
 Title: "Urine Lab Results Code ValueSet"
 Description: "Codes for protein urine measurement nominal and ordinal results."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/UrineLabResultVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-UrineLabResultVS"
 * include codes from system http://loinc.org where code = #LA6576-8 "Positive"
 * include codes from system http://loinc.org where code = #LA6577-6 "Negative"
 * include codes from system http://loinc.org where code = #LA11841-6 "1+"
@@ -38,7 +38,7 @@ ValueSet: BloodGroupVS
 Id: BloodGroupCodeVS
 Title: "Blood Group ValueSet"
 Description: "A ValueSet representing blood groups based on PrimaryCareLabValue codes."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/BloodGroup"
+* ^url = "https://fhir.pwskia.id/ValueSet-BloodGroup"
 * ^status = #active
 * ^version = "1.0.0"
 * ^publisher = "Ministry of Health Indonesia"
@@ -60,7 +60,7 @@ ValueSet: LabNominalResultVS
 Id: LabNominalResultVS
 Title: "Laboratory Nominal Results"
 Description: "Codes representing positive and negative results for any nominal laboratory procedure ANC."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/ANCRhesusVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-ANCRhesusVS"
 * include codes from system http://loinc.org where code = #LA6576-8 "Positive"
 * include codes from system http://loinc.org where code = #LA6577-6 "Negative"
 
@@ -68,7 +68,7 @@ ValueSet: PPIAHepBVS
 Id: PPIAHepBVS
 Title: "Prenatal Screening - Hepatitis B ValueSet"
 Description: "Codes representing Hepatitis B prenatal screening tests."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PPIAHepBVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PPIAHepBVS"
 * include http://loinc.org#22312-3 "Hepatitis A virus Ab [Units/volume] in Serum"
 * include http://loinc.org#75410-1
 * include http://loinc.org#16935-9
@@ -78,7 +78,7 @@ ValueSet: PPIAHIVVS
 Id: PPIAHIVVS
 Title: "Prenatal Screening - Syphillis (VDRL) ValueSet"
 Description: "Codes representing Syphillis (VDRL) prenatal screening."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PPIAHIVVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PPIAHIVVS"
 * include http://loinc.org#7918-6
 * include http://loinc.org#68961-2
 * include codes from system http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes where code = #ANC.B9.DE32
@@ -87,7 +87,7 @@ ValueSet: PPIAVDRLVS
 Id: PPIAVDRLVS
 Title: "Prenatal Screening - Syphillis (VDRL) ValueSet"
 Description: "Codes representing Syphillis (VDRL) prenatal screening."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PPIAVDRLVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PPIAVDRLVS"
 * include http://loinc.org#50690-7
 * include http://loinc.org#14904-7
 * include codes from system http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes where code = #ANC.B9.DE96
@@ -96,7 +96,7 @@ ValueSet: PPIAResultsVS
 Id: PPIAResultsVS
 Title: "Prenatal Screening - General Results ValueSet"
 Description: "Codes representing general results of prenatal screening."
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PPIAResultsVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PPIAResultsVS"
 * include http://snomed.info/sct#11214006
 * include http://snomed.info/sct#131194007
 
@@ -105,7 +105,7 @@ Id: PrimaryCareLabParameterVS
 Title: "Primary Care Lab Parameter Value Set"
 Description: "List of LOINC codes used in the laboratory system based on Jakarta master data."
 * ^status = #active
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PrimaryCareLabParameterVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PrimaryCareLabParameterVS"
 * ^experimental = false
 * ^immutable = false
 
@@ -260,7 +260,7 @@ Id: PrimaryCareLabValueVS
 Title: "Primary Care Lab Value Set"
 Description: "List of observation codes used in laboratory result values based on Jakarta master data."
 * ^status = #active
-* ^url = "https://fhir.pwskia.id/r4/ValueSet/PrimaryCareLabValueVS"
+* ^url = "https://fhir.pwskia.id/ValueSet-PrimaryCareLabValueVS"
 * ^experimental = false
 * ^immutable = false
 

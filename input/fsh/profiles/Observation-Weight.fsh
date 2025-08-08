@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCCurrentWeight
 Title: "Current Weight (Observation)"
 Description: "Observation representing the body weight of the patient. This data supports antenatal care assessments and general health evaluations."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCCurrentWeight"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCCurrentWeight"
 * ^status = #active
 * category.coding 1..1
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"

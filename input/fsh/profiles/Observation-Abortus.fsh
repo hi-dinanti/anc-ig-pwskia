@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCAbortus
 Title: "Abortion (Observation)"
 Description: "Observation representing number of miscarriages and/or abortions."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCAbortus"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCAbortus"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

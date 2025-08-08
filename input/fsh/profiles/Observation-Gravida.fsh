@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCGravida
 Title: "Gravida (Observation)"
 Description: "Observation representing total number of pregnancies."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCGravida"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCGravida"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCHeight
 Title: "Height (Observation)"
 Description: "Observation representing the body height of the patient. This data supports antenatal care assessments and general health evaluations."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCHeight"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCHeight"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

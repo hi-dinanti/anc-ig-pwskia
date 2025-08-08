@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCParitas
 Title: "Parity (Observation)"
 Description: "Observation representing number of times a woman has given birth to a viable offspring (parity)."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCParitas"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCParitas"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCMUAC
 Title: "Mid Upper Arm Circumference - LiLA (Observation)"
 Description: "Observation representing the mid upper arm circumference (MUAC/LiLA) measurement of the patient. This data supports antenatal care assessments, nutritional evaluations, and maternal health risk stratification."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCMUAC"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCMUAC"
 * ^status = #active
 
 * category.coding 1..1

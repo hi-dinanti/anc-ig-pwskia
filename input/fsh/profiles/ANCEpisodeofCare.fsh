@@ -3,7 +3,7 @@ Parent: SatuSehatEpisodeOfCare
 Id: ANCEpisodeOfCare
 Title: "Antenatal Care Episode of Care"
 Description: "An association between a patient and an organization/healthcare provider(s) for antenatal care, following Indonesian standards that consist of a minimum of six visits. The managing organization assumes a level of responsibility for the patient during this period, ensuring comprehensive maternal health services."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/EpisodeOfCare"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCEpisodeOfCare"
 * ^status = #active
 * ^type = "EpisodeOfCare"
 

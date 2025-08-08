@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: PPIAVDRL
 Title: "Prenatal Screening - VDRL"
 Description: "Observation capturing prenatal VDRL test results in accordance to Ministry of Health regulation."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/PPIAVDRL"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-PPIAVDRL"
 * ^status = #active
 
 * category 1..1

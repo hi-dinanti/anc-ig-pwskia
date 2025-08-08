@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: PPIAHIV
 Title: "Prenatal Screening - HIV"
 Description: "Observation capturing prenatal HIV test results in accordance to Ministry of Health regulation."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/PPIAHIV"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-PPIAHIV"
 * ^status = #active
 
 * category 1..1

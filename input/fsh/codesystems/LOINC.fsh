@@ -7,7 +7,7 @@ Description: "Set of LOINC Codes used in antenatal care services"
 * ^url = "http://loinc.org"
 * ^experimental = false
 * ^count = 305
-* ^valueSet = "https://fhir.pwskia.id/r4/ValueSet/ANC10T"
+* ^valueSet = "https://fhir.pwskia.id/ValueSet-ANC10T"
 
 * #30525-0	"Age"
 * #11996-6	"[#] Pregnancies"

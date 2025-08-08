@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCHemoglobin
 Title: "Hemoglobin (Observation)"
 Description: "Observation representing blood hemoglobin levels recorded during an antenatal care visit. This data supports anemia screening and maternal health assessment."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCHemoglobin"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCHemoglobin"
 * ^status = #active
 * category 1..1
 * category.coding 1..1

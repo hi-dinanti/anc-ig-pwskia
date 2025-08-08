@@ -3,7 +3,7 @@ Parent: ANCObservation
 Id: ANCRandomBloodSugar
 Title: "Random Blood Sugar (Observation)" 
 Description: "Observation representing random blood sugar (Gula Darah Sewaktu) levels recorded during an antenatal care visit. This data supports gestational diabetes screening and maternal health assessment as part of the Indonesian minimum 10T exam."
-* ^url = "https://fhir.pwskia.id/r4/StructureDefinition/ANCRandomBloodSugar"
+* ^url = "https://fhir.pwskia.id/StructureDefinition-ANCRandomBloodSugar"
 * ^status = #active
 
 * category.coding 1..1
