@@ -44,7 +44,7 @@ Run `sushi build` to build the project.
    * For Windows: `.\_genonce.bat`.
 
 # Run FHIR IG in HAPI FHIR
-1. Draft for human readable guide available here: [FHIR IG PWS KIA](https://fhir.pwskia.id/artifacts.html)
+1. Draft for human readable guide available here: [FHIR IG PWS KIA](https://fhir.pwskia.id/index.html)
 2. Use of machine readable FHIR IG for FHIR Server at: https://dev-fhir.pwskia.id/package.tgz
 3. Run FHIR IG in HAPI FHIR: `docker-compose up`
 4. You can also run the IG in your own FHIR server using package.tgz
