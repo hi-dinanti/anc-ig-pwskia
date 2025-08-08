@@ -42,7 +42,13 @@ Run `sushi build` to build the project.
 1. Run the IG generator script:
    * For Linux and macOS: `./_genonce.sh`.
    * For Windows: `.\_genonce.bat`.
-2. Draft for human readable guide available here: [FHIR IG PWS KIA](https://dev-fhir.pwskia.id/artifacts.html)
+
+# Run FHIR IG in HAPI FHIR
+1. Draft for human readable guide available here: [FHIR IG PWS KIA](https://dev-fhir.pwskia.id/artifacts.html)
+2. Use of machine readable FHIR IG for FHIR Server at: https://dev-fhir.pwskia.id/package.tgz
+3. Run FHIR IG in HAPI FHIR: `docker-compose up`
+4. You can also run the IG in your own FHIR server using package.tgz
+
 
 # Contribute
 
