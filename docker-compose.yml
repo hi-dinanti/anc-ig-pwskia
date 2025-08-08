@@ -1,0 +1,18 @@
+services:
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    ports:
+      - "8080:8080"
+    configs:
+      - source: hapi
+        target: /app/config/application.yaml
+  web:
+    image: nginx:latest
+    ports:
+      - 8081:80
+    volumes:
+      - ./package:/usr/share/nginx/html/package
+
+configs:
+  hapi:
+    file: ./hapi.application.yaml

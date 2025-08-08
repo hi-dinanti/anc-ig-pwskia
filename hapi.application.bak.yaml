@@ -1,0 +1,13 @@
+hapi:
+  fhir:
+    default_encoding: json
+    implementationguides:
+      pwskia:
+        name: hl7.fhir.r4.id.pws-kia
+        version: 0.1.0
+        reloadExisting: false
+        installMode: STORE_AND_INSTALL
+        packageUrl: https://dev-fhir.pwskia.id/package.tgz
+        fetchDependencies: true
+    logical_urls:
+      - http://fhir.pwskia.id/*
